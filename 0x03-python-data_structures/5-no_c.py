@@ -1,8 +1,11 @@
 #!/usr/bin/python3
 5-no_c.py
 
-def no_c(my_string):
     """Removes all occurrences of the characters 'c' and 'C' from a string."""
-    new_string = my_string.translate({ord(i): None for i in 'cC'})
+    def no_c(my_string):
+    new_string = ""
+    for elements in my_string:
+        if elements != "c" and elements != "C":
+            new_string += elements
     return new_string
 

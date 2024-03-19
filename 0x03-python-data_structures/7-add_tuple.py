@@ -1,11 +1,16 @@
 #!/usr/bin/python3
 
-
-def add_tuple(tuple_a=(), tuple_b=()):
     """Adds two tuples element-wise."""
-    if len(tuple_a) < 2 or len(tuple_b) < 2:
-        return None
-
-    new_tuple = tuple_a[0] + tuple_b[0], tuple_a[1] + tuple_b[1]
-    return new_tuple
-
+def print_matrix_integer(matrix=[[]]):
+    if not matrix:
+        print()
+    else:
+        for row in range(len(matrix)):
+            for item in range(len(matrix[row])):
+                if item != len(matrix[row]) - 1:
+                    endspace = ' '
+                else:
+                    endspace = ''
+                print("{:d}".format(matrix[row][item]), end=endspace)
+            print()
+    
