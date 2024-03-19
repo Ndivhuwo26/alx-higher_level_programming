@@ -2,11 +2,9 @@
 8-multiple_returns.py
 
 def multiple_returns(sentence):
-    """this will returns a tuple with the length of a string and its first character"""
-
-    my_tuple = ()
+    """Returns a tuple with the length of a string and its first character."""
     if len(sentence) == 0:
-        my_tuple = 0, "None"
+        return 0, "None"
     else:
-        my_tuple = len(sentence), sentence[0]
-    return my_tuple
+        return len(sentence), sentence[0]
+
