@@ -1,0 +1,22 @@
+Function Description: The matrix_mul function performs matrix multiplication between two matrices represented as lists of lists (m_a and m_b).
+
+Usage:
+
+Import the matrix_mul function from the module.
+Call the function with two matrices (m_a and m_b) as arguments.
+Examples:
+
+Multiply two matrices with matching dimensions: matrix_mul([[1, 2], [3, 4]], [[1, 2], [3, 4]])
+Multiply matrices with different dimensions: matrix_mul([[1, 2]], [[3, 4], [5, 6]])
+Error Handling:
+
+Ensure at least two arguments are provided, otherwise, a TypeError is raised.
+If the matrices cannot be multiplied due to incompatible dimensions, a ValueError is raised.
+Matrices must not be empty lists, otherwise, a ValueError is raised.
+Matrices must be lists containing lists of integers or floats, otherwise, a TypeError is raised.
+The length of rows in matrices m_a and m_b must be consistent, otherwise, a TypeError is raised.
+Invalid Matrices:
+
+Matrices must be lists of lists, and each row must contain only integers or floats.
+The length of rows in matrices must be consistent.
+Ensure you handle these error conditions properly when using the matrix_mul function.

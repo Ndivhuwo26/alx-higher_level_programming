@@ -1,0 +1,28 @@
+Module Name: 2-matrix_divided.py
+
+Description:
+This module provides a function `matrix_divided()` to divide all elements of a matrix by a given divisor.
+
+Functions:
+1. matrix_divided(): 
+   Description: Divides all elements of a matrix by a given divisor.
+   Parameters: 
+     - matrix: The matrix to be divided (list of lists).
+     - div: The divisor (integer or float).
+   Returns:
+     - A new matrix with all elements divided by the divisor.
+
+Usage:
+1. Import the module:
+   `from 2-matrix_divided import matrix_divided`
+
+2. Call the `matrix_divided()` function with the matrix and divisor as arguments:
+   `result_matrix = matrix_divided(matrix, div)`
+
+
+Note:
+- The function divides all elements of the matrix by the divisor and returns a new matrix with the result.
+- The divisor must be a non-zero integer or float.
+- All rows in the matrix must have the same size.
+- The function rounds the result to 2 decimal places.
+

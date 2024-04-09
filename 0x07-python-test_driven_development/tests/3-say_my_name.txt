@@ -1,0 +1,26 @@
+Module Name: 3-say_my_name.py
+
+Description:
+This module provides a function `say_my_name()` to print a personalized greeting message.
+
+Functions:
+1. say_my_name(): 
+   Description: Prints a personalized greeting message with the provided names.
+   Parameters: 
+     - first_name: The first name (string).
+     - last_name: The last name (string).
+   Returns:
+     - None.
+
+Usage:
+1. Import the module:
+   `from 3-say_my_name import say_my_name`
+
+2. Call the `say_my_name()` function with the first name and last name as arguments:
+   `say_my_name("John", "Doe")`
+
+Note:
+- The function prints a greeting message using the provided first name and last name.
+- If either first name or last name is not provided, it will print a message using "None" instead.
+
+

@@ -1,0 +1,17 @@
+Function Description: The text_indentation function prints text with specific formatting rules. It inserts two new lines after each occurrence of the characters ., ?, and :.
+
+Usage:
+
+Import the text_indentation function from the module.
+Call the function with the desired text to be formatted.
+Examples:
+
+Format a text with a question mark: text_indentation("Hello?")
+Format a text with leading spaces: text_indentation(" Hi there.")
+Format a text without ending punctuation: text_indentation("No ending period, what bad grammar")
+Error Handling:
+
+If the text parameter is not a string, a TypeError is raised.
+Invalid Text:
+
+Examples of invalid text include passing integers, dictionaries, or None as the text parameter.

@@ -1,0 +1,20 @@
+Function Description: The print_square function prints a square made of # characters. The size parameter determines the height and width of the square.
+
+Usage:
+
+Import the print_square function from the module.
+Call the function with the desired size parameter to print out the square.
+Examples:
+
+Print a square with a size of 1: print_square(1)
+Print a square with a size of 4: print_square(4)
+Print a square with a size of 10: print_square(10)
+Error Handling:
+
+If size is not an integer, a TypeError is raised.
+If size is less than zero, a ValueError is raised.
+Type-checking occurs before value-checking.
+At least one argument must be provided when calling the function.
+Invalid Sizes:
+
+Examples of invalid sizes include passing strings, floats, or None as the size parameter

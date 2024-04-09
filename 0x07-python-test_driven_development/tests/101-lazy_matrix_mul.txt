@@ -1,0 +1,26 @@
+Module Name: 101-lazy_matrix_mul.py
+
+Description:
+This module provides a function `lazy_matrix_mul()` to perform matrix multiplication efficiently. It uses lazy evaluation for improved performance.
+
+Functions:
+1. lazy_matrix_mul(): 
+   Description: Multiplies two matrices using lazy evaluation.
+   Parameters: 
+     - matrix_a: First matrix (list of lists).
+     - matrix_b: Second matrix (list of lists).
+   Returns:
+     - The result of multiplying the two matrices.
+
+Usage:
+1. Import the module:
+   `from 101-lazy_matrix_mul import lazy_matrix_mul`
+
+2. Call the `lazy_matrix_mul()` function with two matrices as arguments:
+   `result_matrix = lazy_matrix_mul(matrix_a, matrix_b)`
+
+
+Note:
+- Matrices must be provided as lists of lists.
+- The number of columns in the first matrix must be equal to the number of rows in the second matrix for matrix multiplication to be valid.
+
