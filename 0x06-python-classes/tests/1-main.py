@@ -1,24 +1,17 @@
 #!/usr/bin/python3
-
-# 1-main.py
-
-class Square:
-    def __init__(self, size):
-        self.__size = size
+Square = __import__('1-square').Square
 
 my_square = Square(3)
-print(type(my_square))  # Output: <class '__main__.Square'>
-print(my_square.__dict__)  # Output: {'_Square__size': 3}
+print(type(my_square))
+print(my_square.__dict__)
 
-# Accessing private attribute directly raises AttributeError
 try:
-    print(my_square.size)  # Output: AttributeError: 'Square' object has no attribute 'size'
-except AttributeError as e:
+    print(my_square.size)
+except Exception as e:
     print(e)
 
-# Accessing mangled private attribute also raises AttributeError
 try:
-    print(my_square.__size)  # Output: AttributeError: 'Square' object has no attribute '__size'
-except AttributeError as e:
+    print(my_square.__size)
+except Exception as e:
     print(e)
 
