@@ -1,8 +1,6 @@
 #!/usr/bin/python3
+'''this a Module for BaseGeometry class.'''
 
 class BaseGeometry:
-    """
-    Empty class representing base geometry.
-    """
+    '''this A BaseGeometry class.'''
     pass
-

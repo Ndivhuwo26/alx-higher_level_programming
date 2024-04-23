@@ -1,9 +1,8 @@
 #!/usr/bin/python3
+'''this a Module for MyList class.'''
 
 class MyList(list):
+    ''' MyList class.'''
     def print_sorted(self):
-        """
-        Prints the list in sorted (ascending) order.
-        """
-        sorted_list = sorted(self)  
-        print(sorted_list)
+        '''Method for writting a sorted list.'''
+        print(sorted(self))
