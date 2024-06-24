@@ -16,12 +16,3 @@ console.log(r3);
 console.log(r3.width);
 console.log(r3.height);
 
-const r4 = new Rectangle(-2, 3);
-console.log(r4);
-console.log(r4.width);
-console.log(r4.height);
-
-const r5 = new Rectangle(0, 3);
-console.log(r5);
-console.log(r5.width);
-console.log(r5.height);
